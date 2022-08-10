@@ -1,0 +1,15 @@
+name: TellrawHelp
+version: '${project.version}'
+main: svinerus.tellrawhelp.TellrawHelp
+api-version: 1.19
+prefix: TellrawHelp
+authors: [ svinerus ]
+description: Tellraw to user custom msg on /help command
+commands:
+  help:
+    description: Custom help
+    usage: /help
+  tellrawhelpreload:
+    description: Reload Tellrawhelp plugin
+    usage: /tellrawhelpreload
+    permission: tellrawhelp.reload

@@ -1,0 +1,9 @@
+# /help command
+default: '["\n",
+    {"text":"Hello, User. U called a /help command!","bold":true,"color":"blue"}
+]'
+
+# /help kek command
+kek: '["",
+    {"text":"/help kek","bold":true,"color":"gold"}
+]'
